@@ -14,6 +14,7 @@
     "deploy-test": "cd prisma; prisma deploy -e ../config/test.env"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.10.1",
     "bcryptjs": "^2.4.3",
     "env-cmd": "^10.1.0",
     "graphql-cli": "^3.0.14",
@@ -26,7 +27,6 @@
     "@babel/core": "^7.10.2",
     "@babel/node": "^7.10.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
-    "@babel/polyfill": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "jest": "^26.0.1",
     "nodemon": "^2.0.4"
